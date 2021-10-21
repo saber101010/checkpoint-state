@@ -1,7 +1,7 @@
-import react  ,{component} from 'react';
+import React  ,{Component} from 'react';
 import '../App.css';
 
-class profil extends component {
+class profil extends Component {
     Person={
         fullName :"saber saad",
         bio:"I’m a web developer. I spend my whole day, practically every day, experimenting with HTML, CSS, and JavaScript",
@@ -13,7 +13,7 @@ class profil extends component {
 <div className="user" >
 <h1>{this.Person.fullName} </h1>
 <p>{this.Person.bio} </p>
-<img src={this.Person.imgSrc} />
+<img src={this.Person.imgSrc} alt="" />
 <h3>{this.Person.profession} </h3>
 
 </div>

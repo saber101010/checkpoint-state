@@ -1,8 +1,8 @@
-import react from 'react'
+import React from 'react'
 import './App.css';
-import profil from './component/profil';
+import Profil from './component/profil';
 
-class App extends react.Component {
+class App extends React.Component {
 
 state={
   show:false
@@ -20,7 +20,7 @@ show=()=>{
     <div >
 <button onClick={this.show}>show</button>
 {
-   this.state.show && <profile/>
+   this.state.show && <Profil/>
 }
      
     </div>
